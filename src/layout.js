@@ -10,7 +10,7 @@ function layoutDocument(paragraphs, pageHeight) {
 
     y -= 20;
   }
-
+  console.log("Layout generated and positioned");
   return positioned;
 }
 

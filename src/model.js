@@ -39,7 +39,7 @@ function buildDocumentModel(parsedXml) {
 
     paragraphs.push(new Paragraph(textRuns));
   }
-
+  console.log("Document model builded");
   return paragraphs;
 }
 

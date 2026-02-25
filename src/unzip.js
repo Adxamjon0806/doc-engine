@@ -10,7 +10,7 @@ async function extractDocumentXml(path) {
   if (!file) {
     throw new Error("document.xml not found inside DOCX");
   }
-
+  console.log("XML worked");
   return await file.async("string");
 }
 

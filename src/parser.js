@@ -4,7 +4,7 @@ function parseXml(xmlString) {
   const parser = new XMLParser({
     ignoreAttributes: false,
   });
-
+  console.log("XML parsed");
   return parser.parse(xmlString);
 }
 
